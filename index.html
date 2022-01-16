@@ -7,7 +7,8 @@
         <meta name="robots" content="index">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="logo.ico" sizes="32x32">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/inicio.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,9 +17,6 @@
     </head>
     <body>
         <header class="encabezado">
-            <div class="encabezado__imagen">
-                <img src="img/logo-nombre.png">
-            </div>
             <nav class="encabezado__menu">
                 <input type="checkbox" class="menu__boton">
                 <label class="menu__texto">
@@ -27,25 +25,27 @@
                     <span class="casilla--desactivada">-</span>
                 </label> 
                 <ul class="menu__lista">
-                    <li class="menu__lista--inicio">
+                    <li class="menu__lista--inicio active">
                         <a href="index.html">INICIO</a>
                     </li>
                     <li class="menu__lista--servicios">
                         <a href="services.html">SERVICIOS</a>
                     </li>
                     <li class="menu__lista--nosotros">
-                        <a href="we.html">NOSOTROS</a>
+                        <a href="our.html">NOSOTROS</a>
                     </li>
                     <li class="menu__lista--contacto">
-                        <a href="contactUs.html">CONTACTO</a>
+                        <a href="contact.html">CONTACTO</a>
                     </li>
                 </ul>
             </nav>
+            <div class="encabezado__imagen">
+                <img src="img/logo-nombre.png">
+            </div>
         </header>
         <main class="principal">
             <article class="articulo1">
                 <section class="articulo1__imagen">
-                    <img src="img/presentation.jpg" alt="porfesional de plagas">
                 </section>
                 <section class="articulo1__contenido">
                     <h1 class="articulo1__titulo">Professional Pest Control</h1>

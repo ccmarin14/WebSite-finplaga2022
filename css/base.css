@@ -1,0 +1,114 @@
+:root {
+    --softRed: #b96363;
+    --softBlue: rgb(94, 94, 141);
+    --softWhite: rgb(94, 94, 141);
+}
+
+
+body {
+    min-width: 360px;
+    background-color: var(--softBlue);
+}
+
+.encabezado__imagen {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.encabezado__imagen img {
+    width: 800px;
+}
+
+.menu__texto , .menu__boton {
+    display: none;
+}
+
+.encabezado__menu {
+    margin: 0 auto;
+    display: block;
+    position: fixed;
+    width: 100%;
+    background-color: var(--softBlue);
+    z-index: 1000;
+}
+
+.menu__lista {
+    list-style: none;
+}
+
+.menu__lista li {
+    display: block;
+    float: left;
+    padding: 10px 0px;
+}
+
+.menu__lista li:hover {
+    background-color: var(--softRed);
+}
+
+
+.menu__lista a {
+    padding: 10px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #111111fd;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+.menu__lista a:hover {
+    color: white;
+}
+
+.active {
+    background-color: var(--softRed) !important;
+}
+
+.active a {
+    color: white;
+}
+
+.contenedor__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #7778 ;
+    padding: 30px 30% 0px 10%;
+    font-family: sans-serif;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.footer__contacto h4 {
+    color: black;
+}
+
+.contacto__lista {
+    list-style: none;
+}
+
+.contacto__lista li h5{
+    color: black;
+}
+
+.contacto__lista--email {
+    color:rgb(0, 0, 189);
+}
+
+.footer__informacion h4 {
+    color: black;
+}
+
+.footer__informacion a {
+    color: rgb(0, 0, 189);
+}
+
+
+.copyright {
+    background-color: black;
+    padding: 15px 0;
+}
+
+.copyright p {
+    text-align: center;
+    color: white;
+}
