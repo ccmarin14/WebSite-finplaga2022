@@ -11,12 +11,16 @@
     font-size: 20px;
 }
 
-.articulo1__formulario div{
+.articulo1__formulario div {
     margin: 20px 0 0 0;
 }
 
-.articulo1__formulario div p b{
+.articulo1__formulario div p b {
     color: red;
+}
+
+.articulo1__formulario input {
+    font-family: serif !important;
 }
 
 .nombre {
