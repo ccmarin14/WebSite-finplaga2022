@@ -19,6 +19,12 @@
     color: red;
 }
 
+.articulo1__formulario div p {
+    color: #2b2b2bfd;
+}
+
+
+
 .articulo1__formulario input {
     font-family: serif !important;
 }
