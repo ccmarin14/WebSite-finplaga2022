@@ -6,7 +6,7 @@
 
 body {
     min-width: 360px;
-    background-color: var(--softBlue);
+    background-color: white;
 }
 
 .encabezado__imagen {
@@ -27,7 +27,7 @@ body {
     display: block;
     position: fixed;
     width: 100%;
-    background-color: var(--softBlue);
+    background-color: white;
     z-index: 1000;
 }
 
@@ -71,7 +71,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #7778 ;
+    background-color: var(--softBlue);
     padding: 30px 30% 0px 10%;
     font-family: sans-serif;
     border-radius: 0px 0px 0px 0px;
