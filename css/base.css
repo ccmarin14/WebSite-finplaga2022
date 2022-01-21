@@ -17,7 +17,7 @@ body {
     width: 600px;
 }
 
-.menu__texto , .menu__boton {
+input,label img {
     display: none;
 }
 
@@ -123,4 +123,37 @@ body {
 .copyright p {
     text-align: center;
     color: white;
+}
+
+@media (max-width: 360px) {
+    .encabezado__menu input{
+        display: none;
+    }
+    
+    label {
+        width: 100%;
+    }
+
+    label img {
+        display: block;
+        width: 10%;
+        padding: 5px 0 5px 10px;
+    }
+        
+    #btnControl:checked + label > .menu__lista {
+        display: block;
+    }
+
+    .menu__lista {
+        display: none;
+    }
+
+    .menu__lista li{
+        float: none;
+        padding: 10px 0px;
+    }
+
+    .encabezado__imagen img {
+        width: 360px;
+    }
 }
