@@ -3,7 +3,6 @@
     --softBlue: rgb(94, 94, 141);
 }
 
-
 body {
     min-width: 360px;
     background-color: white;
@@ -92,6 +91,19 @@ body {
 .contacto__lista--email {
     color:rgb(0, 0, 189);
 }
+
+.contacto__lista--redes {
+    margin-bottom: 15px;
+}
+
+.contacto__lista--mapa{
+    margin: 10px 0;
+}
+
+.contacto__lista--mapa a img{
+    border: 1px solid black;
+}
+
 
 .footer__informacion h4 {
     color: black;
