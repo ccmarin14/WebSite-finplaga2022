@@ -9,12 +9,12 @@ body {
 }
 
 .encabezado__imagen {
-    padding-top: 10px;
+    padding-top: 30px;
     text-align: center;
 }
 
 .encabezado__imagen img {
-    width: 800px;
+    width: 600px;
 }
 
 .menu__texto , .menu__boton {
@@ -27,6 +27,7 @@ body {
     position: fixed;
     width: 100%;
     background-color: white;
+    border-bottom: 1px solid silver;
     z-index: 1000;
 }
 
@@ -69,9 +70,9 @@ body {
 .contenedor__footer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: var(--softBlue);
-    padding: 30px 30% 0px 10%;
+    padding: 30px 0;
     font-family: sans-serif;
     border-radius: 0px 0px 0px 0px;
 }

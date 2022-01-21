@@ -9,7 +9,7 @@
 }
 
 .articulo1__imagen {
-    height: 80vh;
+    height: 75vh;
     width: 100vw;
     margin: 0 auto;
     min-width: 360px;
@@ -31,7 +31,7 @@
 
 .articulo1__titulo{
     text-shadow: 2px 2px 0 black;
-    font-size: 50px;
+    font-size: 4vw;
 }
 
 .articulo1__boton {
@@ -40,7 +40,7 @@
     padding: 10px 20px;
     border-radius: 10px 10px 10px 10px;
     border: none;
-    font-size: 25px;
+    font-size: 2vw;
     color:white;
 }
 
@@ -50,7 +50,7 @@
 
 .articulo1__texto {
     margin-top: 20px;
-    font-size: 20px;    
+    font-size: 2vw;    
     text-shadow: 1px 1px 0 black;
     font-family: sans-serif;
 }
