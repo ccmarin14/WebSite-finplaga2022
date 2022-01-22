@@ -9,7 +9,7 @@
     width: 40vw;
     background-image: url(../img/nosotros.png);
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 65%;
     background-position: right center;
     background-color: white;
 }
@@ -53,7 +53,7 @@
     font-family: serif;
     font-size: 2vw;
     color: #2b2b2bfd;
-    vertical-align: bottom;
+    vertical-align: top;
 }
 
 .articulo2__imagen {
