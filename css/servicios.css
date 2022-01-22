@@ -1,10 +1,11 @@
 .articulo {
     margin: 50px 100px;
     color: #2b2b2bfd;
+    font-family: serif;
+    font-size: 1.5vw;
 }
 
 .articulo__descripcion {
-    font-size: 22px;
     font-family: serif;
     padding-bottom: 40px;
     border-bottom: 1px solid silver; 
@@ -23,7 +24,7 @@
 }
 
 .articulo__servicios div .descripcion {
-    font-size: 20px;
+    font-size: 22px;
     text-align: justify;
 }
 
@@ -101,7 +102,6 @@ i, b {
     
     .articulo__descripcion {
         font-size: 22px;
-        font-family: serif;
         padding-bottom: 40px;
         border-bottom: 1px solid silver; 
     }
