@@ -128,7 +128,7 @@ body {
     color: white;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 420px) {
     .encabezado__menu input{
         display: none;
     }
@@ -158,5 +158,10 @@ body {
 
     .encabezado__imagen img {
         width: 360px;
+    }
+
+    .contenedor__footer {
+        justify-content: left;
+        padding-left: 5vw;
     }
 }

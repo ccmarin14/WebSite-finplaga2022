@@ -35,12 +35,12 @@
 }
 
 .articulo1__boton {
-    margin-top: 50px;
+    margin-top: 40px;
     background-color: var(--softBlue);
     padding: 10px 20px;
     border-radius: 10px 10px 10px 10px;
     border: none;
-    font-size: 2vw;
+    font-size: 2.5vw;
     color:white;
 }
 
@@ -99,7 +99,7 @@
     color: #3a3a3afd;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 420px) {
     .articulo1__imagen {
         height: 30vh;
         background-size: 100% 50%;
