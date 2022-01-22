@@ -96,6 +96,10 @@
     .telefono {
         width: 80vw;
     }
+
+    .telefono {
+        width: 100%;
+    }
     
     .mensaje {
         width: 80vw;
