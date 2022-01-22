@@ -82,9 +82,27 @@ i, b {
     }
     
     .servicios__mip div .descripcion {
-        width: 35vw;
-        margin-top: 90px;
-        line-height: 30px;
+        width: 80vw;
+        margin: 10px;
+        font-size: 20px;
     }
 
+    .articulo__servicios div .descripcion {
+        font-size: 20px;
+        text-align: center;
+        line-height: 21px;
+        border-bottom: 1px solid silver;
+        padding-bottom: 10px;
+    }
+
+    .articulo {
+        margin: 30px 5vw;
+    }
+    
+    .articulo__descripcion {
+        font-size: 22px;
+        font-family: serif;
+        padding-bottom: 40px;
+        border-bottom: 1px solid silver; 
+    }
 }
