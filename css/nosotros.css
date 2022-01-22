@@ -51,7 +51,6 @@
 .articulo2__historia p {
     display: inline-block;
     width: 25%;
-    height: 300px;
     margin: 30px 5% 0 20%;
     font-family: serif;
     font-size: 30px;
@@ -72,3 +71,53 @@
     width: 100%;
 }
 
+@media (max-width: 420px) {
+    .articulo2 {
+        height: 300px;
+    }
+    
+    .articulo2__historia p {
+        display: block;
+        width: 100%;
+        margin: 40px auto 0 auto;
+        padding-bottom: 20px;
+        font-size: 25px;
+        text-align: center;
+        border-bottom: 1px solid silver;
+    }
+
+    .articulo2__imagen {
+        display: none;
+    }
+
+    .articulo2__historia {
+        border-bottom: none;
+    }
+
+    .articulo1 {
+        display: block;
+    }
+
+    .articulo1__imagen {
+        width: 100vw;
+        height: 300px;
+        background-image: url(../img/nosotros.png);
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: center center;
+        background-color: white;
+    }
+
+    .articulo1__empresa {
+        width: 100vw;
+        padding: 0 30px;
+        text-align: justify;
+        font-size: 22px;
+    }
+
+    .articulo1__empresa p {
+        margin: 0 auto;
+        width: 100%;
+        font-family: serif;
+    }
+}

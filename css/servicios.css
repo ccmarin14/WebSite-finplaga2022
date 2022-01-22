@@ -72,4 +72,19 @@ i, b {
         display: flex;
         flex-wrap: wrap;
     }
+
+    .servicios__mip {
+        grid-column: none;
+    }
+    
+    .servicios__mip .contenedor__servicio {
+        display: block;
+    }
+    
+    .servicios__mip div .descripcion {
+        width: 35vw;
+        margin-top: 90px;
+        line-height: 30px;
+    }
+
 }
