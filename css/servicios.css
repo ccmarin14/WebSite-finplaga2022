@@ -39,7 +39,7 @@
 .servicios__mip div .descripcion {
     width: 35vw;
     margin-top: 90px;
-    line-height: 30px;
+    line-height: normal;
 }
 
 .servicios__capacitacion p, .servicios__utensilios p, .servicios__reparacion p, .servicios__promocion p, i, b{
@@ -47,7 +47,7 @@
 }
 
 i, b {
-    font-size: 14px !important;
+    font-size: 1vw !important;
 }
 
 .imagen {
@@ -90,13 +90,14 @@ i, b {
     .articulo__servicios div .descripcion {
         font-size: 20px;
         text-align: center;
-        line-height: 21px;
+        line-height: normal;
         border-bottom: 1px solid silver;
         padding-bottom: 10px;
     }
 
     .articulo {
         margin: 30px 5vw;
+        font-size: inherit;
     }
     
     .articulo__descripcion {
